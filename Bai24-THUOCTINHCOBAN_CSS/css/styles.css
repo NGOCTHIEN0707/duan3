@@ -1,0 +1,35 @@
+h1 {
+  /* Màu chữ */
+  color: red;
+  /* Kiểu chữ */
+  font-style: italic;
+  /* font-chữ */
+  font-family: "Times New Roman", Times, serif;
+  /* chuyển hoa thường */
+  text-transform: uppercase;
+  /* Căn dòng */
+  text-align: center;
+  /* Cỡ chữ */
+  font-size: 30px;
+}
+h2 {
+  /* Màu chữ */
+  color: blue;
+  /* Kiểu chữ */
+  font-style: italic;
+  /* font-chữ */
+  font-family: "Arial", sans-serif;
+  /* chuyển hoa thường */
+  text-transform: uppercase;
+  /* Căn dòng */
+  text-align: center;
+  /* Cỡ chữ */
+  font-size: 24px;
+}
+h3 {
+  color: green;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-transform: capitalize;
+}

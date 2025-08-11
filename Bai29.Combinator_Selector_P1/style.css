@@ -1,0 +1,18 @@
+* {
+  /* background-color: burlywood; */
+  font-size: 20px;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+h2.demo_1 {
+  color: blue;
+  font-size: 30px;
+}
+p.demo_1 {
+  color: green;
+  font-size: 40px;
+}
+h2#line_1 {
+  color: purple;
+  font-size: 50px;
+}

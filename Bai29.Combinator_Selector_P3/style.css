@@ -1,0 +1,10 @@
+/* Thẻ con trực tiếp */
+div > p {
+  color: red;
+}
+
+/* Chọn tất cả thẻ p trong thẻ block không phân biệt trực tiếp */
+block p {
+  color: blue;
+  font-size: 30px;
+}

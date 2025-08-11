@@ -1,0 +1,26 @@
+h2 {
+  /* opacity: 0%; */
+  /* display: none; */
+  visibility: hidden;
+  color: black;
+}
+h3 {
+  opacity: 20%;
+  color: black;
+}
+h4 {
+  opacity: 10%;
+  color: black;
+}
+h1,
+p {
+  opacity: 100%;
+  color: black;
+}
+body {
+  background-image: url(./img/backgroun1.jpg);
+  /* background-size: cover; */
+}
+span {
+  visibility: visible;
+}

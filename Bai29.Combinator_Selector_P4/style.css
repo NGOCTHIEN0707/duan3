@@ -1,0 +1,33 @@
+/* Tác động vào thẻ h2 đặt ngay sau thẻ h1 h1 + h2 {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* Nếu tác động vào thẻ bị ngăn cách thì không thể tác động. Vd muốn tác động thẻ h3 sát ngay sau thẻ h1 nhưng thực tế không được tác động vì vướng thẻ h2 */
+/* h1 + h3 {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+} */
+/* Tác động vào thẻ h3 đặt ngay sau class demo ở đây có 2 class demo và sau mỗi class demo này thì đều có một thẻ h3 nên nó tác động cả 2 thẻ h3 này*/
+/* .demo + h3 {
+  color: blue;
+  font-size: 20px;
+} */
+/* Chỉ tác động vào thẻ h3 đứng sát sau class demo2, kết hợp thêm thẻ p */
+/* .demo.demo2 + h3,
+p {
+  color: purple;
+}  */
+
+/* Dấu ~ */
+/* Chọn tất cả thẻ h3 đứng sau thẻ h1 thành màu blue */
+h1 ~ h3 {
+  color: blue;
+  font-size: 20px;
+}
+/* Chọn tất cả khối div đằng sau khối div thành màu red */
+div ~ div {
+  color: red;
+  font-size: 30px;
+}

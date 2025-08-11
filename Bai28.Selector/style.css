@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+p {
+  color: blue;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#line_4 {
+  color: green;
+  font-size: 20px;
+}
+.demo {
+  color: burlywood;
+  font-size: 40px;
+}
+.demo2 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.item_ul_1 {
+  background-color: orange;
+  list-style: none;
+}
+/* . là cho class
+# là cho id
+id thì không được đặt trùng tên
+Class thì giải quyết cho vấn đề 
+đặt cùng tên nhiều cái
+ */

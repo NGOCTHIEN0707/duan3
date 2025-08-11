@@ -1,0 +1,48 @@
+/* Nếu muốn tác động tới tất cả các thẻ có thuộc tính href */
+/* [href] {
+  color: blue;
+  font-size: 30px;
+} */
+/* Nếu chỉ muốn tác động tới một vài thẻ có thuộc tính là href */
+/* a[href] {
+  color: red;
+  font-size: 30px;
+}
+p[href] {
+  color: green;
+  font-size: 30px;
+} */
+
+/* Nếu muốn tác động vào attribute = value */
+/* a[target="_blank"] {
+  color: red;
+  font-size: 30px;
+}
+[target="_self"] {
+  color: orange;
+  font-size: 30px;
+} */
+
+/* Nếu muốn tác động vào attribute chứa từ tuhoc.cc thì dùng ~= còn nếu chọn không phân biệt từ chỉ cần biết chứa từ cần chọn thì dùng *=*/
+/* [title*="tuhoc.cc"] {
+  color: orange;
+  font-size: 30px;
+} */
+
+/* |= là dùng tác động vào attribute có từ đứng đầu. Ví dụ từ pic hoặc pic-abc */
+/* [title|="pic"] {
+  color: orange;
+  font-size: 30px;
+} */
+
+/* ^= thì chỉ quan tâm có từ cần chọn đứng đầu không hay thôi không quan tâm space hay các từ đứng sau */
+/* [title^="pic"] {
+  color: orange;
+  font-size: 30px;
+} */
+
+/* $= thì quan tâm kết thúc bằng gì ở cuối */
+[title$="123"] {
+  color: orange;
+  font-size: 30px;
+}
